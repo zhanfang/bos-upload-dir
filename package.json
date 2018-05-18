@@ -1,0 +1,43 @@
+{
+  "name": "bos-upload-dir",
+  "version": "1.0.0",
+  "description": "A uploader is use for upload directory to bos.",
+  "keywords": [
+    "bos",
+    "directory"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanfang(fzhanxd@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhanfang/bos-upload-dir"
+  },
+  "bugs": {
+    "url": "https://github.com/zhanfang/bos-upload-dir/issues"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "bce-sdk-js": "^0.2.9",
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10"
+  }
+}
