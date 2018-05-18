@@ -2,6 +2,13 @@
 上传文件夹至bos。
 
 ## 使用
+### 安装
+```bash
+npm install bos-upload-dir
+```
+
+### 配置
+
 ```js
 const path = require('path');
 const Uploader = require('bos-upload-dir');

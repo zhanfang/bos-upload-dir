@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "babel src -d lib",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zhanfang(fzhanxd@gmail.com)",
